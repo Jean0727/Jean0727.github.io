@@ -15,3 +15,5 @@ h1 {
 	text-transform: none;
 	margin-top: 1rem;
 }
+.bg-primary{background-color:#D8BFD8!important}
+.text-primary{color:#D8BFD8!important}
