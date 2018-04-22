@@ -63,5 +63,34 @@ left:0;
 }
  /* place the container to the right*/
  .timeline-right{
- left:0;
+ left:50%;
  }
+ 
+ /* place the container to the right*/
+ .timeline-right::after{
+	 left:-12px;
+ }
+ 
+ /*media queries-responsive timeline on screens less than 992px wide */
+ @media screen and (max-width: 992px){
+	 /*place the timelime to the left*/
+	 .timeline::after{
+	   left: 31px;
+	 }
+ 
+ /*full-width containers */
+ .timeline-block{
+	 width:100%;
+	 padding-left:70px
+	 padding-right:25px
+ }
+ /*make all right containers behave like the left ones */
+ .timeline-right{
+	 left:0%;
+ }
+ /*make sure all circles are at the same spot*/
+ .timeline-left::after,.timeline-right::after{
+	 left:17px;
+ }
+ 
+ } 
