@@ -27,6 +27,20 @@ h3{
 	position:relative;
 	margin:0 auto;
 }
+a {
+  color: #D8BFD8;
+}a:hover, a:focus, a:active {
+color: #8f4586;}
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #8f4586;
+}
+  
+
+
 
 .timeline::after{
 	content:'';
