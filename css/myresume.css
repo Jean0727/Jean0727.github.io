@@ -38,7 +38,12 @@ color: #8f4586;}
 .list-social-icons a:hover {
   color: #8f4586;
 }
-  
+
+
+.list-icons 
+.list-inline-item i:hover{
+	color: #8f4586;
+	}  
 
 
 
